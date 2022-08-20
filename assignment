@@ -1,1 +1,35 @@
+Q1.    Write a python script to remove the last digit from the given number(for example if number input 2534 result will print 253)
+Ans.    a=2534
+         print(a//10)        -> 253
+Q2.    Write a python script to get a last digit from the given number (for example if number input 2089 result will print 9)
+Ans.    a=2089
+         print(a%10)         -> 9
+Q3.    Write a python script ot swap data of two variable.
+Ans.    a=23
+        b=43
+        c=a
+        a=b
+        b=c
+        print(a,b)           -> 43 23
+Q4.    Write a python script to find x power y,where value of x and y are given by user.
+Ans.    x=25
+        y=5
+        print(x**y)          -> 9765625
+Q5.    Write  a python script which take a three digit from user and display only first digit.
+Ans.    
 
+Q7.    Write a python script which take a three digit from the user and display only it's last digit.
+Ans.    a=234
+         print(a%10)          -> 4  
+Q8.    Write a python script to use IN operator to display the data present in the list.
+Ans.    ch="MysirG"
+        "My" in ch            -> True
+        "my" in ch            -> False
+Q9.    Write a python script to use NOT IN operator to display the data not present in list.
+Ans.   a="Rajeev Gupta"
+        "Ra" not in a         -> False
+        "Ee" not in a         -> True
+Q10.   Write a python script to use IS operator to display if both variable are the same object or not?
+Ans.    a=58
+        b=58
+         a is b               -> True
