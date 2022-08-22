@@ -16,8 +16,15 @@ Ans.    x=25
         y=5
         print(x**y)          -> 9765625
 Q5.    Write  a python script which take a three digit from user and display only first digit.
-Ans.    
+Ans.   a=int(input("Enter a Three Digit Number: "))
+       a=(a//10//10)
+       print(a)
 
+Q6.    Write a python script which take three digit number from the user and display only it's middle digit.
+Ans.    a=int(input("Enter a three Digit Number: "))
+        a=(a//10)%10
+        print(a)
+        
 Q7.    Write a python script which take a three digit from the user and display only it's last digit.
 Ans.    a=234
          print(a%10)          -> 4  
